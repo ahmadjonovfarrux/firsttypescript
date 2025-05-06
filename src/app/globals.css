@@ -35,7 +35,7 @@ body {
 }
 
 .productCard {
-  max-width: 300px;
+  /* max-width: 300px; */
   padding: 20px;
   width: 100%;
   border: 1px solid grey;
