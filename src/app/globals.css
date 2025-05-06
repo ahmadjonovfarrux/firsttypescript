@@ -15,8 +15,72 @@ body {
 .container {
   max-width: 1280px;
   width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 4px 11px 15px 5px rgba(34, 60, 80, 0.15);
+  -moz-box-shadow: 4px 11px 15px 5px rgba(34, 60, 80, 0.15);
+  box-shadow: 4px 11px 15px 5px rgba(34, 60, 80, 0.15);
+}
+
+.navbar__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.productCard {
+  max-width: 300px;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.productCard:hover {
+  scale: 1.1;
+  transition: 1s ease;
+  -webkit-box-shadow: 4px 11px 15px 5px rgba(34, 60, 80, 0.15);
+  -moz-box-shadow: 4px 11px 15px 5px rgba(34, 60, 80, 0.15);
+  box-shadow: 4px 11px 15px 5px rgba(34, 60, 80, 0.15);
+}
+
+.product__title {
+  margin-bottom: 10px;
+}
+
+.btnWrapper {
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 6px 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.blue {
+  border-color: blue;
+  color: blue;
+}
+
+.red {
+  border-color: red;
+  color: red;
+}
+
+/* ProductCard */
+.productCard__title {
+  margin-bottom: 10px;
+}
+
+.productCard__text {
+  max-width: 750px;
+  width: 100%;
+  margin-bottom: 10px;
 }
