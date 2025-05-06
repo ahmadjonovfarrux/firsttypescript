@@ -3,8 +3,7 @@ import Products from "../components/Products";
 
 async function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Home Page</h1>
+    <div className="container">
       <Suspense
         fallback={
           <div className="flex items-center justify-center text-3xl text-red-800 font-bold">
